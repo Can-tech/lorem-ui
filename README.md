@@ -15,8 +15,8 @@ npm i lorem-ui
 ### Components
 
 #### LoremText
--Use the component to get lorem ipsum text.
--Encapsulation: Yes
+*Use the component to get lorem ipsum text.
+*Encapsulation: Yes
 ```jsx
 <LoremText/> //You will get full paragraph of lorem ipsum
 <LoremText words='5'/> //You will get 5 words of lorem ipsum.
@@ -25,15 +25,15 @@ npm i lorem-ui
 ```
 
 #### LoremContainer
--Use this component to wrap all other components.
--Encapsulation: Yes
+*Use this component to wrap all other components.
+*Encapsulation: Yes
 ```jsx
 <LoremContainer></LoremContainer>
 ```
 
 #### LoremDiv
--Use the component to get a div with having rounded border.
--Encapsulation: Yes
+*Use the component to get a div with having rounded border.
+*Encapsulation: Yes
 ```jsx
 <LoremDiv>
  <LoremText word='40' font='fancy'/>
@@ -42,16 +42,16 @@ npm i lorem-ui
 
 
 #### LoremHeader
--Use the component to get a fancy header.
--If you use center prop it will show header at the center.
+*Use the component to get a fancy header.
+*If you use center prop it will show header at the center.
 -Encapsulation: Yes
 ```jsx
 <LoremHeader center='true'>Lorem Ipsum</LoremHeader>
 ```
 
 #### LoremColumn
--Use the component to adjust the number of columns in a row of text.
--Encapsulation: Yes
+*Use the component to adjust the number of columns in a row of text.
+*Encapsulation: Yes
 ```jsx
 <LoremColumn column='1 | 2 | 3 | 4'> // give values 1-4.
   <LoremText word='140' font=''/>
@@ -59,9 +59,9 @@ npm i lorem-ui
 ```
 
 #### LoremButton
--Use the component to get a button. 
--If 'type' prop is empty, it works as a default button.
--Encapsulation: Yes
+*Use the component to get a button. 
+*If 'type' prop is empty, it works as a default button.
+*Encapsulation: Yes
 ```jsx
 <LoremButton type='default | primary | primary-bold | primary-long | text | link'></LoremButton>
 
@@ -69,30 +69,34 @@ npm i lorem-ui
 ```
 
 #### LoremFooter
--Use the component to create a footer div by encapulating other footer components.
--Encapsulation: Yes
+*Use the component to create a footer div by encapulating other footer components.
+*Encapsulation: Yes
 
 ```jsx
 <LoremFooter></LoremFooter>
 ```
 
 #### LoremFooterLeft
--Use the components as a child coponnet of the ```<LoremFooter>```
--This component wraps list elements and shows them at the left side. 
--Encapsulation: Yes
+*Use the components as a child coponnet of the ```<LoremFooter>```
+*This component wraps list elements and shows them at the left side. 
+*Encapsulation: Yes
 ```jsx
 <LoremFooterLeft></LoremFooterLeft>
 ```
 
 #### LoremFooterRight
--Use the components as a child coponnet of the ```<LoremFooter>```
--This component wraps list elements and shows them at the left side. 
--Encapsulation: Yes
+*Use the components as a child coponnet of the ```<LoremFooter>```
+*This component wraps list elements and shows them at the left side. 
+*Encapsulation: Yes
 ```jsx
 <LoremFooterRight></LoremFooterRight>
 ```
 
 ## Example WebSite
+
+![1](https://user-images.githubusercontent.com/61757250/189440053-7dd6f9c6-2dd5-45eb-99f0-74eeff55cbd9.PNG)
+![2](https://user-images.githubusercontent.com/61757250/189440065-925562ea-be8c-406d-8f1c-27d989fd3a4b.PNG)
+
 
 ```jsx
 import React from 'react'
