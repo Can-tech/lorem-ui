@@ -12,11 +12,11 @@ npm i lorem-ui
 
 ## Document
 
-### Components
+## Components
 
-#### LoremText
-*Use the component to get lorem ipsum text.
-*Encapsulation: Yes
+### LoremText
+* Use the component to get lorem ipsum text.
+* Encapsulation: Yes
 ```jsx
 <LoremText/> //You will get full paragraph of lorem ipsum
 <LoremText words='5'/> //You will get 5 words of lorem ipsum.
@@ -24,16 +24,16 @@ npm i lorem-ui
 <LoremText>Some Text !</LoremText> // You will get output: 'Some Text!' only
 ```
 
-#### LoremContainer
-*Use this component to wrap all other components.
-*Encapsulation: Yes
+### LoremContainer
+* Use this component to wrap all other components.
+* Encapsulation: Yes
 ```jsx
 <LoremContainer></LoremContainer>
 ```
 
-#### LoremDiv
-*Use the component to get a div with having rounded border.
-*Encapsulation: Yes
+### LoremDiv
+* Use the component to get a div with having rounded border.
+* Encapsulation: Yes
 ```jsx
 <LoremDiv>
  <LoremText word='40' font='fancy'/>
@@ -41,61 +41,62 @@ npm i lorem-ui
 ```
 
 
-#### LoremHeader
-*Use the component to get a fancy header.
-*If you use center prop it will show header at the center.
+### LoremHeader
+* Use the component to get a fancy header.
+* If you use center prop it will show header at the center.
 -Encapsulation: Yes
 ```jsx
 <LoremHeader center='true'>Lorem Ipsum</LoremHeader>
 ```
 
-#### LoremColumn
-*Use the component to adjust the number of columns in a row of text.
-*Encapsulation: Yes
+### LoremColumn
+* Use the component to adjust the number of columns in a row of text.
+* Encapsulation: Yes
 ```jsx
 <LoremColumn column='1 | 2 | 3 | 4'> // give values 1-4.
   <LoremText word='140' font=''/>
 </LoremColumn>
 ```
 
-#### LoremButton
-*Use the component to get a button. 
-*If 'type' prop is empty, it works as a default button.
-*Encapsulation: Yes
+### LoremButton
+* Use the component to get a button. 
+* If 'type' prop is empty, it works as a default button.
+* Encapsulation: Yes
 ```jsx
 <LoremButton type='default | primary | primary-bold | primary-long | text | link'></LoremButton>
 
 <LoremButton type='primary-long'>Get More İnformation</LoremButton> // example use case
 ```
 
-#### LoremFooter
-*Use the component to create a footer div by encapulating other footer components.
-*Encapsulation: Yes
+### LoremFooter
+* Use the component to create a footer div by encapulating other footer components.
+* Encapsulation: Yes
 
 ```jsx
 <LoremFooter></LoremFooter>
 ```
 
-#### LoremFooterLeft
-*Use the components as a child coponnet of the ```<LoremFooter>```
-*This component wraps list elements and shows them at the left side. 
-*Encapsulation: Yes
+### LoremFooterLeft
+* Use the components as a child coponnet of the ```<LoremFooter>```
+* This component wraps list elements and shows them at the left side. 
+* Encapsulation: Yes
 ```jsx
 <LoremFooterLeft></LoremFooterLeft>
 ```
 
-#### LoremFooterRight
-*Use the components as a child coponnet of the ```<LoremFooter>```
-*This component wraps list elements and shows them at the left side. 
-*Encapsulation: Yes
+### LoremFooterRight
+* Use the components as a child coponnet of the ```<LoremFooter>```
+* This component wraps list elements and shows them at the left side. 
+* Encapsulation: Yes
 ```jsx
 <LoremFooterRight></LoremFooterRight>
 ```
 
+
 ## Example WebSite
 
-![1](https://user-images.githubusercontent.com/61757250/189440053-7dd6f9c6-2dd5-45eb-99f0-74eeff55cbd9.PNG)
-![2](https://user-images.githubusercontent.com/61757250/189440065-925562ea-be8c-406d-8f1c-27d989fd3a4b.PNG)
+![3](https://user-images.githubusercontent.com/61757250/189442751-01dd68e1-85d5-4333-909d-bc4247c61e45.PNG)
+![4](https://user-images.githubusercontent.com/61757250/189442757-111c55e7-de76-4472-ba4d-225d2889f70f.PNG)
 
 
 ```jsx
