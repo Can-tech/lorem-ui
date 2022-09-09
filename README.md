@@ -15,7 +15,7 @@ npm i lorem-ui
 ### Components
 
 #### LoremText
--Use the component to get lorem ipsum text with this component.
+-Use the component to get lorem ipsum text.
 -Encapsulation: Yes
 ```jsx
 <LoremText/> //You will get full paragraph of lorem ipsum
