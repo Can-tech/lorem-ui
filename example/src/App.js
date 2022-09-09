@@ -10,7 +10,7 @@ const App = () => {
         <hr />
         <br /><br />
         <LoremColumn column='4'>
-          <LoremText words='140'>fffffffffffffffffffff</LoremText>
+          <LoremText words='140'></LoremText>
           <br />
           <LoremButton type='primary-long'>Get More İnformation</LoremButton>
         </LoremColumn>

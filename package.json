@@ -1,6 +1,6 @@
 {
   "name": "lorem-ui",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Get lorem ipsum text and create a web site in minutes! Get basic lorem-ipsum themed UI elements",
   "author": "Can-tech",
   "license": "MIT",
@@ -8,6 +8,7 @@
   "main": "dist/index.js",
   "module": "dist/index.modern.js",
   "source": "src/index.js",
+  "keywords": ["lorem-ipsum", "react", "UI", "dummy text", "lorem text"],
   "engines": {
     "node": ">=10"
   },
