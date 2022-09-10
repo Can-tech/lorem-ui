@@ -18,10 +18,10 @@ npm i lorem-ui
 * Use the component to get lorem ipsum text.
 * Encapsulation: Yes
 ```jsx
-<LoremText/> //You will get full paragraph of lorem ipsum
-<LoremText words='5'/> //You will get 5 words of lorem ipsum.
+<LoremText/> //You will get full paragraph of lorem ipsum text.
+<LoremText words='5'/> //You will get 5 words of lorem ipsum text.
 <LoremText words='220' font='fancy'/> //You will get 220 words of lorem ipsum with having fancy font-family.
-<LoremText>Some Text !</LoremText> // You will get output: 'Some Text!' only
+<LoremText>Some Text !</LoremText> // You will get full paragraph of dummy lorem ipsum and the output: 'Some Text!' at the end.
 ```
 
 ### LoremContainer
@@ -119,7 +119,7 @@ const App = () => {
         <br /><br />
         <LoremDiv><LoremText words='40' font='fancy' /></LoremDiv>
         <br /><br />
-        <LoremText word='120' />
+        <LoremText words='120' />
         <br /><br />
         <LoremDiv><LoremText words='40' font='fancy' /></LoremDiv>
         <br /><br />
